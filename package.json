@@ -2,6 +2,10 @@
   "name": "@tailt9/nestjs-mysql",
   "version": "1.0.5",
   "description": "Library use nestjs mysql, typeorm, mysql2",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
   "workspaces": [
     "libs/*"
   ],
