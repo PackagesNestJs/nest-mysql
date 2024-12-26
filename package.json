@@ -1,0 +1,25 @@
+{
+  "name": "@tailt9/nestjs-mysql",
+  "version": "1.0.5",
+  "description": "Library use nestjs mysql, typeorm, mysql2",
+  "keywords": [
+    "NestJs",
+    "Typeorm",
+    "mysql2"
+  ],
+  "homepage": "https://github.com/PackagesNestJs/nest-mysql#readme",
+  "bugs": {
+    "url": "https://github.com/PackagesNestJs/nest-mysql/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/PackagesNestJs/nest-mysql.git"
+  },
+  "license": "MIT",
+  "author": "Tai Tien",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
