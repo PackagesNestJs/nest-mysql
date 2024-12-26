@@ -1,8 +1,8 @@
 import { DynamicModule, Module } from '@nestjs/common';
-import { DatabaseService } from '@app/database/database.service';
 import { ConfigService } from '@nestjs/config';
-import { DBModuleOptions } from '@app/database/database.interface';
 import { TypeOrmModule } from '@nestjs/typeorm';
+import { DBModuleOptions } from './database.interface';
+import { DatabaseService } from './database.service';
 
 @Module({
   providers: [ConfigService, DatabaseService],

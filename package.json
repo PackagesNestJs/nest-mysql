@@ -2,11 +2,22 @@
   "name": "@tailt9/nestjs-mysql",
   "version": "1.0.5",
   "description": "Library use nestjs mysql, typeorm, mysql2",
+  "workspaces": [
+    "libs/*"
+  ],
   "keywords": [
     "NestJs",
     "Typeorm",
     "mysql2"
   ],
+  "dependencies": {
+    "@nestjs/config": "^3.3.0",
+    "@nestjs/core": "^10.4.15",
+    "@nestjs/typeorm": "^10.0.2",
+    "dotenv": "^16.4.7",
+    "mysql2": "^3.12.0",
+    "typeorm": "^0.3.20"
+  },
   "homepage": "https://github.com/PackagesNestJs/nest-mysql#readme",
   "bugs": {
     "url": "https://github.com/PackagesNestJs/nest-mysql/issues"
